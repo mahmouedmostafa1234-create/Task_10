@@ -1055,53 +1055,50 @@ width: 100%;margin: 400px 10% 0;
 }
 
 .item {
-        padding: 15px;
-        text-align: left; /* محاذاة لليسار كما في الصورة */
-    }
+padding: 15px;
+text-align: left; 
+}
 
-    .item h2 {
-        font-size: 32px; /* تصغير العنوان ليناسب الشاشة */
-        line-height: 1.2;
-    }
+.item h2 {
+font-size: 32px; 
+line-height: 1.2;
+}
 
-    /* تنسيق السطر (الرقم + النص) */
-    .PH {
-        display: flex;
-        align-items: flex-start; /* محاذاة الرقم مع أول سطر في النص */
-        padding: 20px 0;
-        gap: 20px; /* مسافة مناسبة للموبايل بين الرقم والنص */
-    }
+.PH {
+display: flex;
+align-items: flex-start; 
+padding: 20px 0;
+gap: 20px; 
+}
 
-    .PH span {
-        font-weight: bold;
-        font-size: 16px;
-        min-width: 30px; /* مساحة ثابتة صغيرة للرقم */
-        color: #333;
-    }
+.PH span {
+font-weight: bold;
+font-size: 16px;
+min-width: 30px; 
+color: #333;
+}
 
-    .PH p {
-        font-size: 15px;
-        line-height: 1.5;
-        margin: 0;
-        color: #333;
-    }
+.PH p {
+font-size: 15px;
+line-height: 1.5;
+margin: 0;
+color: #333;
+}
 
-    /* الخط الفاصل */
-    hr {
-        border: 0;
-        border-top: 1px solid #ededed;
-        margin: 0;
-    }
+hr {
+border: 0;
+border-top: 1px solid #ededed;
+margin: 0;
+}
 
-    /* الزرار في الموبايل */
-    .btn-2 {
-        width: fit-content; /* الزر يأخذ حجم النص فقط */
-        margin-top: 30px;
-        padding: 12px 30px;
-        font-size: 14px;
-        background-color: #e6f0d2; /* اللون الأخضر الفاتح */
-        border-radius: 50px;
-    }
+.btn-2 {
+width: fit-content; 
+margin-top: 30px;
+padding: 12px 30px;
+font-size: 14px;
+background-color: #e6f0d2; 
+border-radius: 50px;
+}
 
 .Features .item-2 img {
 width: 100%;
