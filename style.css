@@ -1128,32 +1128,30 @@ font-size: 1.1rem;
 }
 
 .specs-Table {
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
+width: 100%;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
 
-    .compare-table {
-        min-width: 600px;
-        border-collapse: collapse;
-    }
+.compare-table {
+min-width: 600px;
+border-collapse: collapse;
+}
 
-    /* زيادة الارتفاع هنا عن طريق الـ Padding */
-    .compare-table th, 
-    .compare-table td {
-        padding: 25px 15px; /* الرقم 25 هو المسؤول عن الارتفاع (فوق وتحت) */
-        font-size: 15px;
-        line-height: 1.6;   /* زيادة المسافة بين السطور داخل الخلية الواحدة */
-        border-bottom: 1px solid #f0f0f0;
-        vertical-align: middle; /* لضمان توسيط الكلام عمودياً */
-    }
+.compare-table th, 
+.compare-table td {
+padding: 25px 15px;
+font-size: 15px;
+line-height: 1.6;   
+border-bottom: 1px solid #f0f0f0;
+vertical-align: middle; 
+}
 
-    /* لمسة جمالية لزيادة ارتفاع رأس الجدول */
-    .compare-table thead th {
-        padding: 30px 15px;
-        background-color: #fafafa;
-        font-weight: bold;
-    }
+.compare-table thead th {
+padding: 30px 15px;
+background-color: #fafafa;
+font-weight: bold;
+}
 
 .Testimonial{
 margin-top: 80px;
