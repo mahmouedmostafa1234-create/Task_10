@@ -1046,13 +1046,62 @@ flex-direction: column;
 gap: 30px;              
 }
 
-.Features .item {
+.Features {
 width: 100%;
 }
 
 .Features .item-2 {
 width: 100%;margin: 400px 10% 0;  
 }
+
+.item {
+        padding: 15px;
+        text-align: left; /* محاذاة لليسار كما في الصورة */
+    }
+
+    .item h2 {
+        font-size: 32px; /* تصغير العنوان ليناسب الشاشة */
+        line-height: 1.2;
+    }
+
+    /* تنسيق السطر (الرقم + النص) */
+    .PH {
+        display: flex;
+        align-items: flex-start; /* محاذاة الرقم مع أول سطر في النص */
+        padding: 20px 0;
+        gap: 20px; /* مسافة مناسبة للموبايل بين الرقم والنص */
+    }
+
+    .PH span {
+        font-weight: bold;
+        font-size: 16px;
+        min-width: 30px; /* مساحة ثابتة صغيرة للرقم */
+        color: #333;
+    }
+
+    .PH p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+        color: #333;
+    }
+
+    /* الخط الفاصل */
+    hr {
+        border: 0;
+        border-top: 1px solid #ededed;
+        margin: 0;
+    }
+
+    /* الزرار في الموبايل */
+    .btn-2 {
+        width: fit-content; /* الزر يأخذ حجم النص فقط */
+        margin-top: 30px;
+        padding: 12px 30px;
+        font-size: 14px;
+        background-color: #e6f0d2; /* اللون الأخضر الفاتح */
+        border-radius: 50px;
+    }
 
 .Features .item-2 img {
 width: 100%;
@@ -1078,23 +1127,36 @@ font-weight: bold;
 font-size: 1.1rem;
 }
 
-.specs{
-width: 100%;
-height: auto;
-justify-content: center;
-margin-top: 100px;
-}
+.specs-Table {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 
-.Top{
-margin-left: 50PX;
-text-align: center;
-justify-content: center;
-}
+    .compare-table {
+        min-width: 600px;
+        border-collapse: collapse;
+    }
 
-.compare-table {
-width: 100%;
-display: block;
-overflow-x: scroll;
+    /* زيادة الارتفاع هنا عن طريق الـ Padding */
+    .compare-table th, 
+    .compare-table td {
+        padding: 25px 15px; /* الرقم 25 هو المسؤول عن الارتفاع (فوق وتحت) */
+        font-size: 15px;
+        line-height: 1.6;   /* زيادة المسافة بين السطور داخل الخلية الواحدة */
+        border-bottom: 1px solid #f0f0f0;
+        vertical-align: middle; /* لضمان توسيط الكلام عمودياً */
+    }
+
+    /* لمسة جمالية لزيادة ارتفاع رأس الجدول */
+    .compare-table thead th {
+        padding: 30px 15px;
+        background-color: #fafafa;
+        font-weight: bold;
+    }
+
+.Testimonial{
+margin-top: 80px;
 }
 
 .item-4 p {
