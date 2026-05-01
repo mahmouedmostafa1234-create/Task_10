@@ -1109,6 +1109,7 @@ display: block;
 }
 
 .PH {
+  max-width: 220px;
 display: flex;
 align-items: baseline;
 gap: 50px;              
@@ -1128,7 +1129,6 @@ font-size: 1.1rem;
 .specs-Table {
 width: 100%;
 overflow-x: auto;
--webkit-overflow-scrolling: touch;
 }
 
 .compare-table {
@@ -1162,7 +1162,7 @@ margin: 0 auto;
 .item-2{
   width: 100%;  
 
-margin:300px  auto 0 auto!important;
+margin:400px  auto 0 auto!important;
 }
 
 .item-4 p {
