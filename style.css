@@ -969,7 +969,7 @@ display: none;
 
 
 .hero h1 {
-font-size: 100px;
+font-size: 90px !important;
 }
 
 .hero-img {
@@ -1155,10 +1155,20 @@ font-weight: bold;
 margin-top: 80px;
 }
 
+.item-3{
+margin: 0 auto;
+}
+
+.item-2{
+  width: 100%;  
+
+margin:300px  auto 0 auto!important;
+}
+
 .item-4 p {
 width: 100%;
 margin: 20px;
-font-size: 50px;
+font-size: 40px;
 }
 
 .Work {
@@ -1168,6 +1178,14 @@ margin: 20px;
 .Work-map {
 flex-direction: column;
 gap: 10px;
+}
+
+.Work-map h2{
+font-size: 40px;
+}
+
+.btn-4{
+margin-top: 20px;
 }
 
 .Work-cat {
@@ -1191,8 +1209,9 @@ gap: 10px;
 
 .btn-5 {
 width: 100%;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 80px;
+padding-right: 80px;
+margin:14px auto ;
 }
 
 .Credits {
@@ -1263,8 +1282,15 @@ height: 40px;
 width: auto;
 display: block;
 }
-
+ 
+.paragraph hr{
+width: 50%;          
+border: 0;
+border-top: 1px solid #eee;
 }
+}
+
+/* tablet */
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
