@@ -857,7 +857,7 @@ text-align: end;
 letter-spacing: 1px; 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
 
 .navbar {
 display: flex;
