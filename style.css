@@ -1079,7 +1079,8 @@ color: #333;
 }
 
 .PH p {
-font-size: 15px;
+max-width: 576px;
+font-size: 12px;
 line-height: 1.5;
 margin: 0;
 color: #333;
